@@ -1,687 +1,545 @@
 <!DOCTYPE HTML>
 <!--
-	Strata by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+    Portfolio of Efstratios Michailidis
+    Based on Strata by HTML5 UP
+    html5up.net | @ajlkn
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
-<html>
-	<head>
-		<title>Strata by HTML5 UP</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="is-preload">
+<html lang="en">
+<head>
+    <title>Efstratios Michailidis | GIS, Renewable Energy & Technical Support</title>
+    <meta charset="utf-8" />
+    <meta name="description" content="Portfolio of Efstratios Michailidis: GIS, renewable energy, technical support, geospatial analysis, QGIS, CAD and 3D design projects." />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 
-		<!-- Header -->
-			<header id="header">
-				<div class="inner">
-					<a href="#" class="image avatar"><img src="images\Artboard_14.jpg" alt="" /></a>
-					<h1><strong>Hi, I'm Efstratios Michailidis </strong> <br />
-					Trust me I'm an engineer <br />
-				 </h1>
-				</div>
-			</header>
+    <link rel="stylesheet" href="assets/css/main.css" />
 
-		<!-- Main -->
-			<div id="main">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
 
-				<!-- One -->
-					<section id="one">
-						<header class="major">
-							<h2> I am a Civil Engineer well versed in CAD, GIS and 3D design software. </h2>
-						</header>
-						<p>Over the past 3 years, I have gained valuable experience in both civil engineering and renewable energy project development. As a civil engineer, I successfully managed small construction projects, including home renovations, from inception to completion.
-							As a project developer for renewable energy resources, I lead initiatives focused on sustainable energy solutions. I conducted thorough feasibility assessments, performed resource evaluations for wind and solar projects, and navigated complex regulatory environments to secure permits and incentives.
-							One of my key assets is my proficiency in QGIS, which has been instrumental in spatial data analysis, geospatial modeling, and data-driven decision-making.
-							</p>
-						
-					</section>
+        .project-block {
+            margin-bottom: 3em;
+            padding-bottom: 2em;
+            border-bottom: 1px solid rgba(144, 144, 144, 0.25);
+        }
 
-				<!-- Two -->
-					<section id="two">
-						<h2>PROJECTS</h2>
-						<div class="row">
-                            <head>
-                                <meta name="viewport" content="width=device-width, initial-scale=1">
-                                <style>
-                                    * {box-sizing:border-box}
-                                    body {font-family: Verdana,sans-serif;margin:0}
-                                    .mySlides {display:none; width: 100%;}
-                        
-                                    /* Slideshow container */
-                                    .slideshow { /*NOT slideshow-container*/
-                                        max-width: 1000px;
-                                        position: relative;
-                                        margin: auto;
-                                    }
-                        
-                                    /* Next & previous buttons */
-                                    .prev, .next {
-                                        cursor: pointer;
-                                        position: absolute;
-                                        top: 50%;
-                                        width: auto;
-                                        padding: 16px;
-                                        margin-top: -22px;
-                                        color: white;
-                                        font-weight: bold;
-                                        font-size: 18px;
-                                        transition: 0.6s ease;
-                                        border-radius: 0 3px 3px 0;
-                                    }
-                        
-                                    /* Position the "next button" to the right */
-                                    .next {
-                                        right: 0;
-                                        border-radius: 3px 0 0 3px;
-                                    }
-                        
-                                    /* On hover, add a black background color with a little bit see-through */
-                                    .prev:hover, .next:hover {
-                                        background-color: rgba(0,0,0,0.8);
-                                    }
-                        
-                                    /* Caption text */
-                                    .text {
-                                        color: #f2f2f2;
-                                        font-size: 15px;
-                                        padding: 8px 12px;
-                                        position: absolute;
-                                        bottom: 8px;
-                                        width: 100%;
-                                        text-align: center;
-                                    }
-                        
-                                    /* Number text (1/3 etc) */
-                                    .numbertext {
-                                        color: #f2f2f2;
-                                        font-size: 12px;
-                                        padding: 8px 12px;
-                                        position: absolute;
-                                        top: 0;
-                                    }
-                        
-                                    /* The dots/bullets/indicators */
-                                    .dot {
-                                        cursor:pointer;
-                                        height: 13px;
-                                        width: 13px;
-                                        margin: 0 2px;
-                                        background-color: #bbb;
-                                        border-radius: 50%;
-                                        display: inline-block;
-                                        transition: background-color 0.6s ease;
-                                    }
-                        
-                                    .active, .dot:hover {
-                                        background-color: #f44336;
-                                    }
-                        
-                                    /* Fading animation */
-                                    .fade {
-                                        -webkit-animation-name: fade;
-                                        -webkit-animation-duration: 1.5s;
-                                        animation-name: fade;
-                                        animation-duration: 1.5s;
-                                    }
-                        
-                                    @-webkit-keyframes fade {
-                                        from {opacity: .4}
-                                        to {opacity: 1}
-                                    }
-                        
-                                    @keyframes fade {
-                                        from {opacity: .4}
-                                        to {opacity: 1}
-                                    }
-                        
-                                    /* On smaller screens, decrease text size */
-                                    @media only screen and (max-width: 300px) {
-                                        .prev, .next,.text {font-size: 11px}
-                                    }
-                                </style>
-                            </head>
-                            <body>
-                        
-                                <div id="wrapper">
-                                    <div class="slideshow w3-container w3-half">
-										 <h3>3D interior design project</h3>
-                                        <div class="w3-content w3-display-container">
-                                            <img class="mySlides fade" src="images\3dDesign-Blender\kitchen.jpg">
-                                            <img class="mySlides fade" src="images\3dDesign-Blender\kitchen1.jpg">
-                                            <img class="mySlides fade" src="images\3dDesign-Blender\livingroom.jpg">
-                                            <img class="mySlides fade" src="images\3dDesign-Blender\livingroom1.jpg">
-                                            <img class="mySlides fade" src="images\3dDesign-Blender\bedroom.jpg">
-                                            <img class="mySlides fade" src="images\3dDesign-Blender\bedroom1.jpg">
-                                            <img class="mySlides fade" src="images\3dDesign-Blender\bathroom.jpg">								
-                                            <a class="prev" onclick="plusDivs(-1, 0)">&#10094;</a>
-                                            <a class="next" onclick="plusDivs(1, 0)">&#10095;</a>
-                                            <!-- Extra plusDivs parameter refers to first (0) slideshow (start from 0) -->
-                                        </div>
-                                        <br>
-                                        <div style="text-align:center">
-                                            <span class="dot" onclick="currentDiv(1, 0)"></span>
-                                            <span class="dot" onclick="currentDiv(2, 0)"></span>
-                                            <span class="dot" onclick="currentDiv(3, 0)"></span>
-                                            <span class="dot" onclick="currentDiv(4, 0)"></span>
-                                            <span class="dot" onclick="currentDiv(5, 0)"></span>
-                                            <span class="dot" onclick="currentDiv(6, 0)"></span>
-                                            <span class="dot" onclick="currentDiv(7, 0)"></span>
-                                        </div>										
-								         <p>3D design for an appartment renovation project using Blender.</p>
-                                    </div>
-                                    <hr>
-                                    <div class="slideshow w3-container w3-half">
-                                        <div class="w3-content w3-display-container">
-											 <h3>Map creation for wind farm siting</h3>
-											 <img class="mySlides fade" src="images\wind\χωροθέτηση αιολικών πάρκων με εφαρμογή 8 κριτηρίων - 1η περίπτωση.jpg">
-											 <img class="mySlides fade" src="images\wind\χωροθέτηση αιολικών πάρκων με εφαρμογή 8 κριτηρίων - 2η περίπτωση.jpg">
-											 <img class="mySlides fade" src="images\wind\χωροθέτηση ΑΓ με εφαρμογή 8 κριτηρίων.jpg">
-											 <img class="mySlides fade" src="images\wind\χρησειςΓης.jpg">
-											 <img class="mySlides fade" src="images\wind\Κριτήριο κλίσης εδάφους για ανεμογεννητριες.jpg">
-											 <img class="mySlides fade" src="images\wind\Κριτήριο αιολικού δυναμικού.jpg">
-											 <img class="mySlides fade" src="images\wind\ΕΠΙΤΡΕΠΟΜΕΝΗ ΠΕΡΙΟΧΗ ΧΩΡΟΘΕΤΗΣΗΣ & Α_Γ.jpg">
-											 
-                                            <a class="prev" onclick="plusDivs(-1, 1)">&#10094;</a>
-                                            <a class="next" onclick="plusDivs(1, 1)">&#10095;</a>
-                                            <!-- Extra plusDivs parameter refers to second (1) slideshow (start from 0) -->
-                                        </div>
-                                        <br>
-                                        <div style="text-align:center">
-                                            <span class="dot" onclick="currentDiv(1, 1)"></span>
-                                            <span class="dot" onclick="currentDiv(2, 1)"></span>
-                                            <span class="dot" onclick="currentDiv(3, 1)"></span>
-                                            <span class="dot" onclick="currentDiv(4, 1)"></span>
-                                            <span class="dot" onclick="currentDiv(5, 1)"></span>
-                                            <span class="dot" onclick="currentDiv(6, 1)"></span>
-                                            <span class="dot" onclick="currentDiv(7, 1)"></span>
-                                            
-                                        </div>
-									     <p>(Thesis project) Using QGIS, I applied institutional, technical and environmental exclusion criteria for wind farm site selection at the West Macedonia region of Greece, resulting in the creation of two scenarios of permitted sites.</p>
-                                    </div>
-                                    <hr>
-                                    <div class="slideshow w3-container w3-half">
-                                        <div class="w3-content w3-display-container">
-											<h3>Map creation for solar park siting</h3>
-                                            <img class="mySlides fade" src="images\sun\χωροθέτηση φωτοβολταϊκών πάρκων με εφαρμογή 8 κριτηρίων - 1η περίπτωση.jpg">
-                                            <img class="mySlides fade" src="images\sun\χωροθέτηση φωτοβολταϊκών πάρκων με εφαρμογή 8 κριτηρίων - 2η περίπτωση.jpg">
-                                            <img class="mySlides fade" src="images\sun\χωροθέτηση φωτοβολταϊκών πάρκων με εφαρμογή 8 κριτηρίων.jpg">
-                                            <img class="mySlides fade" src="images\sun\Κριτήριο Υψόμετρου.jpg">
-                                            <img class="mySlides fade" src="images\sun\ΚΡΙΤΗΡΙΟ ΚΛΙΣΕΩΝ ΕΔΑΦΟΥΣ ΦΒ.jpg">
-                                            <img class="mySlides fade" src="images\sun\Κριτήριο Ηλιακού Δυναμικού.jpg">
-                                            <a class="prev" onclick="plusDivs(-1, 2)">&#10094;</a>
-                                            <a class="next" onclick="plusDivs(1, 2)">&#10095;</a>
-                                            <!-- Extra plusDivs parameter refers to second (1) slideshow (start from 0) -->
-                                        </div>
-                                        <br>
-                                        <div style="text-align:center">
-                                            <span class="dot" onclick="currentDiv(1, 2)"></span>
-                                            <span class="dot" onclick="currentDiv(2, 2)"></span>
-                                            <span class="dot" onclick="currentDiv(3, 2)"></span>
-                                            <span class="dot" onclick="currentDiv(4, 2)"></span>
-                                            <span class="dot" onclick="currentDiv(5, 2)"></span>
-                                            <span class="dot" onclick="currentDiv(6, 2)"></span>
-                                        </div>
-										 <p>(Thesis project) Using QGIS, I applied institutional, technical and environmental exclusion criteria for solar park site selection at the West Macedonia region of Greece, resulting in the creation of two scenarios of permitted sites.</p>
-                                    </div>
-                                    <hr>
-                                    <div class="slideshow w3-container w3-half">
-                                        <div class="w3-content w3-display-container">
-											<h3>Map creation for data visualization</h3>
-                                            <img class="mySlides fade" src="images\MapMaking-DataVisualization - CZ&GE\Overall_Distribution - cz_de.jpg">
-                                            <img class="mySlides fade" src="images\MapMaking-DataVisualization - CZ&GE\IP_10b.jpg">
-                                            <img class="mySlides fade" src="images\MapMaking-DataVisualization - CZ&GE\IP_6C.jpg">
-                                            <img class="mySlides fade" src="images\MapMaking-DataVisualization - CZ&GE\IP_5B.jpg">
-                                            <a class="prev" onclick="plusDivs(-1, 3)">&#10094;</a>
-                                            <a class="next" onclick="plusDivs(1, 3)">&#10095;</a>
-                                            <!-- Extra plusDivs parameter refers to second (1) slideshow (start from 0) -->
-                                        </div>
-                                        <br>
-                                        <div style="text-align:center">
-                                            <span class="dot" onclick="currentDiv(1, 3)"></span>
-                                            <span class="dot" onclick="currentDiv(2, 3)"></span>
-                                            <span class="dot" onclick="currentDiv(3, 3)"></span>
-                                            <span class="dot" onclick="currentDiv(4, 3)"></span>
-                                        </div>
-										<p>Using QGIS, I created a map of projects and budgets for selected regions.</p>
-                                    </div>
-                                    <hr>
-                                    <div class="slideshow w3-container w3-half">
-                                        <div class="w3-content w3-display-container">
-											<h3>Network Analysis</h3>
-                                            <img class="mySlides fade" src="images\Gephi\networkanalysisGEPHI.jpg">
-                                            <a class="prev" onclick="plusDivs(-1, 4)">&#10094;</a>
-                                            <a class="next" onclick="plusDivs(1, 4)">&#10095;</a>
-                                            <!-- Extra plusDivs parameter refers to second (1) slideshow (start from 0) -->
-                                        </div>
-                                        <br>
-                                        <div style="text-align:center">
-                                            <span class="dot" onclick="currentDiv(1, 4)"></span>
-                                            
-                                        </div>
-										<p>I used Gephi to visualize and analyse large networks graphs.</p>
-                                    </div>
-                                    <hr>
-                                    <div class="slideshow w3-container w3-half">
-                                        <div class="w3-content w3-display-container">
-											<h3>3D interior design project</h3>
-                                            <img class="mySlides fade" src="images\MIKΡΟ ΘΗΡΑΜΕΝΟΥΣ\SMALLθηραμενουςSPITOGATOS (2020-06-22T12.22.03 1) (2020-06-23T14.04.jpg">
-                                            <img class="mySlides fade" src="images\MIKΡΟ ΘΗΡΑΜΕΝΟΥΣ\SMALLθηραμενουςSPITOGATOS 2.jpg">
-                                            <img class="mySlides fade" src="images\MIKΡΟ ΘΗΡΑΜΕΝΟΥΣ\SMALLθηραμενουςSPITOGATOS 3.jpg">
-                                            <img class="mySlides fade" src="images\MIKΡΟ ΘΗΡΑΜΕΝΟΥΣ\SMALLθηραμενουςSPITOGATOS 4.jpg">
-                                            <img class="mySlides fade" src="images\MIKΡΟ ΘΗΡΑΜΕΝΟΥΣ\SMALLθηραμενουςSPITOGATOS 5.jpg">
-                                            <img class="mySlides fade" src="images\MIKΡΟ ΘΗΡΑΜΕΝΟΥΣ\SMALLθηραμενουςSPITOGATOS 10.jpg">
-                                            <img class="mySlides fade" src="images\MIKΡΟ ΘΗΡΑΜΕΝΟΥΣ\SMALLθηραμενουςSPITOGATOS 12.jpg">
-                                            <img class="mySlides fade" src="images\MIKΡΟ ΘΗΡΑΜΕΝΟΥΣ\SMALLθηραμενουςSPITOGATOS 13.jpg">
-                                            <img class="mySlides fade" src="images\MIKΡΟ ΘΗΡΑΜΕΝΟΥΣ\SMALLθηραμενουςSPITOGATOS 14.jpg">
-                                            <a class="prev" onclick="plusDivs(-1, 5)">&#10094;</a>
-                                            <a class="next" onclick="plusDivs(1, 5)">&#10095;</a>
-                                            <!-- Extra plusDivs parameter refers to second (1) slideshow (start from 0) -->
-                                        </div>
-                                        <br>
-                                        <div style="text-align:center">
-                                            <span class="dot" onclick="currentDiv(1, 5)"></span>
-                                            <span class="dot" onclick="currentDiv(2, 5)"></span>
-                                            <span class="dot" onclick="currentDiv(3, 5)"></span>
-                                            <span class="dot" onclick="currentDiv(4, 5)"></span>
-                                            <span class="dot" onclick="currentDiv(5, 5)"></span>
-                                            <span class="dot" onclick="currentDiv(6, 5)"></span>
-                                            <span class="dot" onclick="currentDiv(7, 5)"></span>
-                                            <span class="dot" onclick="currentDiv(8, 5)"></span>
-                                            <span class="dot" onclick="currentDiv(9, 5)"></span>
-                                        </div>
-										<p>3D design for an appartment renovation project using Sketchup.<p>
-                                    </div>
-                        
-                                    <script>
-                                        var slideIndex = 1;
-                                        var z = document.getElementsByClassName("slideshow");
-                                        for (i = 0; i < z.length; i++) {
-                                            //set custom data attribute to first current image index
-                                            z[i].setAttribute("data-currentslide", 1);
-                                            showDivs(z[i].getAttribute("data-currentslide"), i);
-                                        }
-                                        function plusDivs(n, j) {
-                                            //get custom data attribute value of current image index to slideshow class index j
-                                            slideIndex = parseInt(z[j].getAttribute("data-currentslide"));
-                                            showDivs(slideIndex += n, j);
-                                        }
-                                        function currentDiv(n, j) {
-                                            showDivs(slideIndex = n, j); /* showDivs Not showSlides*/
-                                        }
-                                        function showDivs(n, j) {
-                                            var i;
-                                            var z = document.getElementsByClassName("slideshow")[j];
-                                            var x = z.getElementsByClassName("mySlides");
-                                            var dots = z.getElementsByClassName("dot");
-                                            if (n > x.length) {
-                                                slideIndex = 1
-                                            }
-                                            if (n < 1) {
-                                                slideIndex = x.length;
-                                            }
-                                            //set custom data attribute to current image index
-                                            z.setAttribute("data-currentslide", slideIndex);
-                                            for (i = 0; i < x.length; i++) {
-                                                x[i].style.display = "none";
-                                            }
-                                            for (i = 0; i < dots.length; i++) {
-                                                dots[i].className = dots[i].className.replace(" active", "");
-                                            }
-                                            x[slideIndex - 1].style.display = "block";
-                                            dots[slideIndex - 1].className += " active";
-                                        }
-                                    </script>
-                        
-                                </div>
-                        
-                            </body>
-                                        
-                            
-					</section>
+        .project-block h3 {
+            margin-bottom: 1em;
+        }
 
-				
+        .slideshow {
+            max-width: 1000px;
+            position: relative;
+            margin: 0 auto 1em auto;
+        }
 
-				<!-- Four -->
-				<!--
-					<section id="four">
-						<h2>Elements</h2>
+        .mySlides {
+            display: none;
+            width: 100%;
+            border-radius: 0.35em;
+        }
 
-						<section>
-							<h4>Text</h4>
-							<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
-							This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
-							This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
-							<hr />
-							<header>
-								<h4>Heading with a Subtitle</h4>
-								<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
-							</header>
-							<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
-							<header>
-								<h5>Heading with a Subtitle</h5>
-								<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
-							</header>
-							<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
-							<hr />
-							<h2>Heading Level 2</h2>
-							<h3>Heading Level 3</h3>
-							<h4>Heading Level 4</h4>
-							<h5>Heading Level 5</h5>
-							<h6>Heading Level 6</h6>
-							<hr />
-							<h5>Blockquote</h5>
-							<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
-							<h5>Preformatted</h5>
-							<pre><code>i = 0;
+        .prev,
+        .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            padding: 14px;
+            margin-top: -22px;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.3s ease;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+            background-color: rgba(0, 0, 0, 0.25);
+            text-decoration: none;
+        }
 
-while (!deck.isInOrder()) {
-print 'Iteration ' + i;
-deck.shuffle();
-i++;
-}
+        .next {
+            right: 0;
+            border-radius: 3px 0 0 3px;
+        }
 
-print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
-						</section>
+        .prev:hover,
+        .next:hover {
+            background-color: rgba(0, 0, 0, 0.75);
+            color: white;
+        }
 
-						<section>
-							<h4>Lists</h4>
-							<div class="row">
-								<div class="col-6 col-12-xsmall">
-									<h5>Unordered</h5>
-									<ul>
-										<li>Dolor pulvinar etiam magna etiam.</li>
-										<li>Sagittis adipiscing lorem eleifend.</li>
-										<li>Felis enim feugiat dolore viverra.</li>
-									</ul>
-									<h5>Alternate</h5>
-									<ul class="alt">
-										<li>Dolor pulvinar etiam magna etiam.</li>
-										<li>Sagittis adipiscing lorem eleifend.</li>
-										<li>Felis enim feugiat dolore viverra.</li>
-									</ul>
-								</div>
-								<div class="col-6 col-12-xsmall">
-									<h5>Ordered</h5>
-									<ol>
-										<li>Dolor pulvinar etiam magna etiam.</li>
-										<li>Etiam vel felis at lorem sed viverra.</li>
-										<li>Felis enim feugiat dolore viverra.</li>
-										<li>Dolor pulvinar etiam magna etiam.</li>
-										<li>Etiam vel felis at lorem sed viverra.</li>
-										<li>Felis enim feugiat dolore viverra.</li>
-									</ol>
-									<h5>Icons</h5>
-									<ul class="icons">
-										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-										<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-										<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-										<li><a href="#" class="icon brands fa-tumblr"><span class="label">Tumblr</span></a></li>
-									</ul>
-								</div>
-							</div>
-							<h5>Actions</h5>
-							<ul class="actions">
-								<li><a href="#" class="button primary">Default</a></li>
-								<li><a href="#" class="button">Default</a></li>
-							</ul>
-							<ul class="actions small">
-								<li><a href="#" class="button primary small">Small</a></li>
-								<li><a href="#" class="button small">Small</a></li>
-							</ul>
-							<div class="row">
-								<div class="col-6 col-12-small">
-									<ul class="actions stacked">
-										<li><a href="#" class="button primary">Default</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-								</div>
-								<div class="col-6 col-12-small">
-									<ul class="actions stacked">
-										<li><a href="#" class="button primary small">Small</a></li>
-										<li><a href="#" class="button small">Small</a></li>
-									</ul>
-								</div>
-								<div class="col-6 col-12-small">
-									<ul class="actions stacked">
-										<li><a href="#" class="button primary fit">Default</a></li>
-										<li><a href="#" class="button fit">Default</a></li>
-									</ul>
-								</div>
-								<div class="col-6 col-12-small">
-									<ul class="actions stacked">
-										<li><a href="#" class="button primary small fit">Small</a></li>
-										<li><a href="#" class="button small fit">Small</a></li>
-									</ul>
-								</div>
-							</div>
-						</section>
+        .dots {
+            text-align: center;
+            margin: 0.75em 0 1em 0;
+        }
 
-						<section>
-							<h4>Table</h4>
-							<h5>Default</h5>
-							<div class="table-wrapper">
-								<table>
-									<thead>
-										<tr>
-											<th>Name</th>
-											<th>Description</th>
-											<th>Price</th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td>Item One</td>
-											<td>Ante turpis integer aliquet porttitor.</td>
-											<td>29.99</td>
-										</tr>
-										<tr>
-											<td>Item Two</td>
-											<td>Vis ac commodo adipiscing arcu aliquet.</td>
-											<td>19.99</td>
-										</tr>
-										<tr>
-											<td>Item Three</td>
-											<td> Morbi faucibus arcu accumsan lorem.</td>
-											<td>29.99</td>
-										</tr>
-										<tr>
-											<td>Item Four</td>
-											<td>Vitae integer tempus condimentum.</td>
-											<td>19.99</td>
-										</tr>
-										<tr>
-											<td>Item Five</td>
-											<td>Ante turpis integer aliquet porttitor.</td>
-											<td>29.99</td>
-										</tr>
-									</tbody>
-									<tfoot>
-										<tr>
-											<td colspan="2"></td>
-											<td>100.00</td>
-										</tr>
-									</tfoot>
-								</table>
-							</div>
+        .dot {
+            cursor: pointer;
+            height: 12px;
+            width: 12px;
+            margin: 0 3px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 0.3s ease;
+        }
 
-							<h5>Alternate</h5>
-							<div class="table-wrapper">
-								<table class="alt">
-									<thead>
-										<tr>
-											<th>Name</th>
-											<th>Description</th>
-											<th>Price</th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td>Item One</td>
-											<td>Ante turpis integer aliquet porttitor.</td>
-											<td>29.99</td>
-										</tr>
-										<tr>
-											<td>Item Two</td>
-											<td>Vis ac commodo adipiscing arcu aliquet.</td>
-											<td>19.99</td>
-										</tr>
-										<tr>
-											<td>Item Three</td>
-											<td> Morbi faucibus arcu accumsan lorem.</td>
-											<td>29.99</td>
-										</tr>
-										<tr>
-											<td>Item Four</td>
-											<td>Vitae integer tempus condimentum.</td>
-											<td>19.99</td>
-										</tr>
-										<tr>
-											<td>Item Five</td>
-											<td>Ante turpis integer aliquet porttitor.</td>
-											<td>29.99</td>
-										</tr>
-									</tbody>
-									<tfoot>
-										<tr>
-											<td colspan="2"></td>
-											<td>100.00</td>
-										</tr>
-									</tfoot>
-								</table>
-							</div>
-						</section>
+        .dot.active-dot,
+        .dot:hover {
+            background-color: #555;
+        }
 
-						<section>
-							<h4>Buttons</h4>
-							<ul class="actions">
-								<li><a href="#" class="button primary">Primary</a></li>
-								<li><a href="#" class="button">Default</a></li>
-							</ul>
-							<ul class="actions">
-								<li><a href="#" class="button large">Large</a></li>
-								<li><a href="#" class="button">Default</a></li>
-								<li><a href="#" class="button small">Small</a></li>
-							</ul>
-							<ul class="actions fit">
-								<li><a href="#" class="button primary fit">Fit</a></li>
-								<li><a href="#" class="button fit">Fit</a></li>
-							</ul>
-							<ul class="actions fit small">
-								<li><a href="#" class="button primary fit small">Fit + Small</a></li>
-								<li><a href="#" class="button fit small">Fit + Small</a></li>
-							</ul>
-							<ul class="actions">
-								<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
-								<li><a href="#" class="button icon solid fa-download">Icon</a></li>
-							</ul>
-							<ul class="actions">
-								<li><span class="button primary disabled">Primary</span></li>
-								<li><span class="button disabled">Default</span></li>
-							</ul>
-						</section>
+        .fade {
+            animation-name: fade;
+            animation-duration: 0.8s;
+        }
 
-						<section>
-							<h4>Form</h4>
-							<form method="post" action="#">
-								<div class="row gtr-uniform gtr-50">
-									<div class="col-6 col-12-xsmall">
-										<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
-									</div>
-									<div class="col-6 col-12-xsmall">
-										<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
-									</div>
-									<div class="col-12">
-										<select name="demo-category" id="demo-category">
-											<option value="">- Category -</option>
-											<option value="1">Manufacturing</option>
-											<option value="1">Shipping</option>
-											<option value="1">Administration</option>
-											<option value="1">Human Resources</option>
-										</select>
-									</div>
-									<div class="col-4 col-12-small">
-										<input type="radio" id="demo-priority-low" name="demo-priority" checked>
-										<label for="demo-priority-low">Low Priority</label>
-									</div>
-									<div class="col-4 col-12-small">
-										<input type="radio" id="demo-priority-normal" name="demo-priority">
-										<label for="demo-priority-normal">Normal Priority</label>
-									</div>
-									<div class="col-4 col-12-small">
-										<input type="radio" id="demo-priority-high" name="demo-priority">
-										<label for="demo-priority-high">High Priority</label>
-									</div>
-									<div class="col-6 col-12-small">
-										<input type="checkbox" id="demo-copy" name="demo-copy">
-										<label for="demo-copy">Email me a copy of this message</label>
-									</div>
-									<div class="col-6 col-12-small">
-										<input type="checkbox" id="demo-human" name="demo-human" checked>
-										<label for="demo-human">I am a human and not a robot</label>
-									</div>
-									<div class="col-12">
-										<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
-									</div>
-									<div class="col-12">
-										<ul class="actions">
-											<li><input type="submit" value="Send Message" class="primary" /></li>
-											<li><input type="reset" value="Reset" /></li>
-										</ul>
-									</div>
-								</div>
-							</form>
-						</section>
+        @keyframes fade {
+            from {
+                opacity: 0.4;
+            }
 
-						<section>
-							<h4>Image</h4>
-							<h5>Fit</h5>
-							<div class="box alt">
-								<div class="row gtr-50 gtr-uniform">
-									<div class="col-12"><span class="image fit"><img src="images/fulls/05.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/01.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/02.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/03.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/04.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/05.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/06.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/03.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/02.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/01.jpg" alt="" /></span></div>
-								</div>
-							</div>
-							<h5>Left &amp; Right</h5>
-							<p><span class="image left"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
-							<p><span class="image right"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
-						</section>
+            to {
+                opacity: 1;
+            }
+        }
 
-					</section>
-				-->
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.6em;
+            padding-left: 0;
+            list-style: none;
+        }
 
-			</div>
+        .skills-list li {
+            border: 1px solid rgba(144, 144, 144, 0.4);
+            border-radius: 999px;
+            padding: 0.35em 0.8em;
+            font-size: 0.95em;
+        }
 
-		<!-- Footer -->
-			<footer id="footer">
-			     <h3>Get in touch</h3>
-				<div class="inner">
-					<ul class="icons">
-						<li><a href="https://twitter.com/StratosMicha" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="https://github.com/StratsMicha" class="icon brands fa-github"><span class="label">Github</span></a></li>
-						<li><a href="https://linkedin.com/in/efstratios-michailidis" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
-						<li><a href="mailto:efstratiosmichailidis@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-				</div>
-			</footer>
+        .experience-list {
+            margin-top: 1em;
+        }
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.poptrox.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+        @media only screen and (max-width: 736px) {
+            .prev,
+            .next {
+                font-size: 14px;
+                padding: 10px;
+            }
 
-	</body>
+            .dot {
+                height: 10px;
+                width: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body class="is-preload">
+
+    <!-- Header -->
+    <header id="header">
+        <div class="inner">
+            <a href="#" class="image avatar">
+                <img src="images/Artboard_14.jpg" alt="Portrait of Efstratios Michailidis" />
+            </a>
+
+            <h1>
+                <strong>Hi, I'm Efstratios Michailidis</strong><br />
+                GIS, Renewable Energy & Technical Support Professional
+            </h1>
+        </div>
+    </header>
+
+    <!-- Main -->
+    <div id="main">
+
+        <!-- About -->
+        <section id="one">
+            <header class="major">
+                <h2>Combining civil engineering, geospatial analysis, and renewable energy systems.</h2>
+            </header>
+
+            <p>
+                I am a Civil Engineer with experience in renewable energy project development,
+                geospatial analysis, technical support, and monitoring/control systems for RES projects.
+                My background combines QGIS-based spatial analysis, CAD design, permitting support,
+                stakeholder coordination, and hands-on troubleshooting of field equipment used in
+                photovoltaic and renewable energy installations.
+            </p>
+
+            <p>
+                I have worked on feasibility assessments, wind and solar siting studies, environmental
+                and technical exclusion criteria, map production, and project coordination. In my current
+                role, I support RES monitoring and control systems, helping diagnose connectivity,
+                inverter/logger communication, Modbus, VPN, and field integration issues.
+            </p>
+
+            <p>
+                This portfolio presents selected work in GIS, renewable energy planning, data visualization,
+                network analysis, and 3D design.
+            </p>
+
+            <ul class="actions">
+                <li><a href="#two" class="button">View Projects</a></li>
+                <li><a href="mailto:efstratiosmichailidis@gmail.com" class="button primary">Contact Me</a></li>
+            </ul>
+        </section>
+
+        <!-- Skills -->
+        <section id="skills">
+            <h2>Skills & Tools</h2>
+
+            <ul class="skills-list">
+                <li>QGIS</li>
+                <li>Geospatial Analysis</li>
+                <li>Cartography</li>
+                <li>CAD Design</li>
+                <li>AutoCAD</li>
+                <li>SketchUp</li>
+                <li>Blender</li>
+                <li>Renewable Energy Projects</li>
+                <li>PV Systems</li>
+                <li>Wind & Solar Siting</li>
+                <li>Technical Support</li>
+                <li>Modbus TCP/RTU</li>
+                <li>Monitoring & Control Systems</li>
+                <li>Field Troubleshooting</li>
+                <li>Vendor Coordination</li>
+                <li>Documentation</li>
+            </ul>
+        </section>
+
+        <!-- Projects -->
+        <section id="two">
+            <h2>Selected Projects</h2>
+
+            <!-- Project 1 -->
+            <article class="project-block">
+                <h3>3D Interior Design Project - Blender</h3>
+
+                <div class="slideshow">
+                    <img class="mySlides fade" src="images/3dDesign-Blender/kitchen.jpg" alt="Blender kitchen interior design render" loading="lazy" />
+                    <img class="mySlides fade" src="images/3dDesign-Blender/kitchen1.jpg" alt="Alternative kitchen interior design render" loading="lazy" />
+                    <img class="mySlides fade" src="images/3dDesign-Blender/livingroom.jpg" alt="Blender living room interior design render" loading="lazy" />
+                    <img class="mySlides fade" src="images/3dDesign-Blender/livingroom1.jpg" alt="Alternative living room interior design render" loading="lazy" />
+                    <img class="mySlides fade" src="images/3dDesign-Blender/bedroom.jpg" alt="Blender bedroom interior design render" loading="lazy" />
+                    <img class="mySlides fade" src="images/3dDesign-Blender/bedroom1.jpg" alt="Alternative bedroom interior design render" loading="lazy" />
+                    <img class="mySlides fade" src="images/3dDesign-Blender/bathroom.jpg" alt="Blender bathroom interior design render" loading="lazy" />
+
+                    <a class="prev" onclick="plusDivs(-1, 0)">&#10094;</a>
+                    <a class="next" onclick="plusDivs(1, 0)">&#10095;</a>
+                </div>
+
+                <div class="dots">
+                    <span class="dot" onclick="currentDiv(1, 0)"></span>
+                    <span class="dot" onclick="currentDiv(2, 0)"></span>
+                    <span class="dot" onclick="currentDiv(3, 0)"></span>
+                    <span class="dot" onclick="currentDiv(4, 0)"></span>
+                    <span class="dot" onclick="currentDiv(5, 0)"></span>
+                    <span class="dot" onclick="currentDiv(6, 0)"></span>
+                    <span class="dot" onclick="currentDiv(7, 0)"></span>
+                </div>
+
+                <p>
+                    3D design work for an apartment renovation project using Blender.
+                    The project focused on interior layout, spatial organization, and visual presentation
+                    of renovation concepts.
+                </p>
+            </article>
+
+            <!-- Project 2 -->
+            <article class="project-block">
+                <h3>Wind Farm Siting Analysis</h3>
+
+                <div class="slideshow">
+                    <img class="mySlides fade" src="images/wind/χωροθέτηση αιολικών πάρκων με εφαρμογή 8 κριτηρίων - 1η περίπτωση.jpg" alt="Wind farm siting analysis scenario 1" loading="lazy" />
+                    <img class="mySlides fade" src="images/wind/χωροθέτηση αιολικών πάρκων με εφαρμογή 8 κριτηρίων - 2η περίπτωση.jpg" alt="Wind farm siting analysis scenario 2" loading="lazy" />
+                    <img class="mySlides fade" src="images/wind/χωροθέτηση ΑΓ με εφαρμογή 8 κριτηρίων.jpg" alt="Wind turbine siting map with exclusion criteria" loading="lazy" />
+                    <img class="mySlides fade" src="images/wind/χρησειςΓης.jpg" alt="Land use map for wind farm siting" loading="lazy" />
+                    <img class="mySlides fade" src="images/wind/Κριτήριο κλίσης εδάφους για ανεμογεννητριες.jpg" alt="Terrain slope criterion for wind turbine siting" loading="lazy" />
+                    <img class="mySlides fade" src="images/wind/Κριτήριο αιολικού δυναμικού.jpg" alt="Wind potential criterion map" loading="lazy" />
+                    <img class="mySlides fade" src="images/wind/ΕΠΙΤΡΕΠΟΜΕΝΗ ΠΕΡΙΟΧΗ ΧΩΡΟΘΕΤΗΣΗΣ & Α_Γ.jpg" alt="Permitted area for wind turbine siting" loading="lazy" />
+
+                    <a class="prev" onclick="plusDivs(-1, 1)">&#10094;</a>
+                    <a class="next" onclick="plusDivs(1, 1)">&#10095;</a>
+                </div>
+
+                <div class="dots">
+                    <span class="dot" onclick="currentDiv(1, 1)"></span>
+                    <span class="dot" onclick="currentDiv(2, 1)"></span>
+                    <span class="dot" onclick="currentDiv(3, 1)"></span>
+                    <span class="dot" onclick="currentDiv(4, 1)"></span>
+                    <span class="dot" onclick="currentDiv(5, 1)"></span>
+                    <span class="dot" onclick="currentDiv(6, 1)"></span>
+                    <span class="dot" onclick="currentDiv(7, 1)"></span>
+                </div>
+
+                <p>
+                    Thesis project using QGIS for wind farm site selection in Western Macedonia, Greece.
+                    I applied institutional, technical, and environmental exclusion criteria to identify
+                    suitable areas and produced two siting scenarios for renewable energy planning.
+                </p>
+            </article>
+
+            <!-- Project 3 -->
+            <article class="project-block">
+                <h3>Solar Park Siting Analysis</h3>
+
+                <div class="slideshow">
+                    <img class="mySlides fade" src="images/sun/χωροθέτηση φωτοβολταϊκών πάρκων με εφαρμογή 8 κριτηρίων - 1η περίπτωση.jpg" alt="Solar park siting analysis scenario 1" loading="lazy" />
+                    <img class="mySlides fade" src="images/sun/χωροθέτηση φωτοβολταϊκών πάρκων με εφαρμογή 8 κριτηρίων - 2η περίπτωση.jpg" alt="Solar park siting analysis scenario 2" loading="lazy" />
+                    <img class="mySlides fade" src="images/sun/χωροθέτηση φωτοβολταϊκών πάρκων με εφαρμογή 8 κριτηρίων.jpg" alt="Solar park siting map using exclusion criteria" loading="lazy" />
+                    <img class="mySlides fade" src="images/sun/Κριτήριο Υψόμετρου.jpg" alt="Elevation criterion for solar park siting" loading="lazy" />
+                    <img class="mySlides fade" src="images/sun/ΚΡΙΤΗΡΙΟ ΚΛΙΣΕΩΝ ΕΔΑΦΟΥΣ ΦΒ.jpg" alt="Slope criterion for photovoltaic park siting" loading="lazy" />
+                    <img class="mySlides fade" src="images/sun/Κριτήριο Ηλιακού Δυναμικού.jpg" alt="Solar potential criterion map" loading="lazy" />
+
+                    <a class="prev" onclick="plusDivs(-1, 2)">&#10094;</a>
+                    <a class="next" onclick="plusDivs(1, 2)">&#10095;</a>
+                </div>
+
+                <div class="dots">
+                    <span class="dot" onclick="currentDiv(1, 2)"></span>
+                    <span class="dot" onclick="currentDiv(2, 2)"></span>
+                    <span class="dot" onclick="currentDiv(3, 2)"></span>
+                    <span class="dot" onclick="currentDiv(4, 2)"></span>
+                    <span class="dot" onclick="currentDiv(5, 2)"></span>
+                    <span class="dot" onclick="currentDiv(6, 2)"></span>
+                </div>
+
+                <p>
+                    Thesis project using QGIS for photovoltaic park site selection in Western Macedonia,
+                    Greece. I applied environmental, institutional, and technical exclusion criteria to
+                    create scenario-based suitability maps for solar development.
+                </p>
+            </article>
+
+            <!-- Project 4 -->
+            <article class="project-block">
+                <h3>GIS Data Visualization & Regional Mapping</h3>
+
+                <div class="slideshow">
+                    <img class="mySlides fade" src="images/MapMaking-DataVisualization - CZ&amp;GE/Overall_Distribution - cz_de.jpg" alt="Overall regional project distribution map" loading="lazy" />
+                    <img class="mySlides fade" src="images/MapMaking-DataVisualization - CZ&amp;GE/IP_10b.jpg" alt="Regional data visualization map for selected programme priority" loading="lazy" />
+                    <img class="mySlides fade" src="images/MapMaking-DataVisualization - CZ&amp;GE/IP_6C.jpg" alt="Regional project and budget visualization map" loading="lazy" />
+                    <img class="mySlides fade" src="images/MapMaking-DataVisualization - CZ&amp;GE/IP_5B.jpg" alt="Thematic regional mapping output" loading="lazy" />
+
+                    <a class="prev" onclick="plusDivs(-1, 3)">&#10094;</a>
+                    <a class="next" onclick="plusDivs(1, 3)">&#10095;</a>
+                </div>
+
+                <div class="dots">
+                    <span class="dot" onclick="currentDiv(1, 3)"></span>
+                    <span class="dot" onclick="currentDiv(2, 3)"></span>
+                    <span class="dot" onclick="currentDiv(3, 3)"></span>
+                    <span class="dot" onclick="currentDiv(4, 3)"></span>
+                </div>
+
+                <p>
+                    GIS mapping and data visualization project using QGIS. I created thematic maps
+                    showing project distribution, regional indicators, and budget-related information
+                    for selected regions.
+                </p>
+            </article>
+
+            <!-- Project 5 -->
+            <article class="project-block">
+                <h3>Network Analysis</h3>
+
+                <div class="slideshow">
+                    <img class="mySlides fade" src="images/Gephi/networkanalysisGEPHI.jpg" alt="Network analysis visualization created with Gephi" loading="lazy" />
+
+                    <a class="prev" onclick="plusDivs(-1, 4)">&#10094;</a>
+                    <a class="next" onclick="plusDivs(1, 4)">&#10095;</a>
+                </div>
+
+                <div class="dots">
+                    <span class="dot" onclick="currentDiv(1, 4)"></span>
+                </div>
+
+                <p>
+                    Network analysis and visualization using Gephi. The project focused on transforming
+                    relational data into readable network graphs to explore connections, structure, and
+                    interaction intensity.
+                </p>
+            </article>
+
+            <!-- Project 6 -->
+            <article class="project-block">
+                <h3>3D Interior Design Project - SketchUp</h3>
+
+                <div class="slideshow">
+                    <img class="mySlides fade" src="images/MIKΡΟ ΘΗΡΑΜΕΝΟΥΣ/SMALLθηραμενουςSPITOGATOS (2020-06-22T12.22.03 1) (2020-06-23T14.04.jpg" alt="SketchUp apartment renovation render 1" loading="lazy" />
+                    <img class="mySlides fade" src="images/MIKΡΟ ΘΗΡΑΜΕΝΟΥΣ/SMALLθηραμενουςSPITOGATOS 2.jpg" alt="SketchUp apartment renovation render 2" loading="lazy" />
+                    <img class="mySlides fade" src="images/MIKΡΟ ΘΗΡΑΜΕΝΟΥΣ/SMALLθηραμενουςSPITOGATOS 3.jpg" alt="SketchUp apartment renovation render 3" loading="lazy" />
+                    <img class="mySlides fade" src="images/MIKΡΟ ΘΗΡΑΜΕΝΟΥΣ/SMALLθηραμενουςSPITOGATOS 4.jpg" alt="SketchUp apartment renovation render 4" loading="lazy" />
+                    <img class="mySlides fade" src="images/MIKΡΟ ΘΗΡΑΜΕΝΟΥΣ/SMALLθηραμενουςSPITOGATOS 5.jpg" alt="SketchUp apartment renovation render 5" loading="lazy" />
+                    <img class="mySlides fade" src="images/MIKΡΟ ΘΗΡΑΜΕΝΟΥΣ/SMALLθηραμενουςSPITOGATOS 10.jpg" alt="SketchUp apartment renovation render 6" loading="lazy" />
+                    <img class="mySlides fade" src="images/MIKΡΟ ΘΗΡΑΜΕΝΟΥΣ/SMALLθηραμενουςSPITOGATOS 12.jpg" alt="SketchUp apartment renovation render 7" loading="lazy" />
+                    <img class="mySlides fade" src="images/MIKΡΟ ΘΗΡΑΜΕΝΟΥΣ/SMALLθηραμενουςSPITOGATOS 13.jpg" alt="SketchUp apartment renovation render 8" loading="lazy" />
+                    <img class="mySlides fade" src="images/MIKΡΟ ΘΗΡΑΜΕΝΟΥΣ/SMALLθηραμενουςSPITOGATOS 14.jpg" alt="SketchUp apartment renovation render 9" loading="lazy" />
+
+                    <a class="prev" onclick="plusDivs(-1, 5)">&#10094;</a>
+                    <a class="next" onclick="plusDivs(1, 5)">&#10095;</a>
+                </div>
+
+                <div class="dots">
+                    <span class="dot" onclick="currentDiv(1, 5)"></span>
+                    <span class="dot" onclick="currentDiv(2, 5)"></span>
+                    <span class="dot" onclick="currentDiv(3, 5)"></span>
+                    <span class="dot" onclick="currentDiv(4, 5)"></span>
+                    <span class="dot" onclick="currentDiv(5, 5)"></span>
+                    <span class="dot" onclick="currentDiv(6, 5)"></span>
+                    <span class="dot" onclick="currentDiv(7, 5)"></span>
+                    <span class="dot" onclick="currentDiv(8, 5)"></span>
+                    <span class="dot" onclick="currentDiv(9, 5)"></span>
+                </div>
+
+                <p>
+                    3D design work for an apartment renovation project using SketchUp.
+                    The project supported the visualization of layout options, interior arrangements,
+                    and renovation concepts.
+                </p>
+            </article>
+        </section>
+
+        <!-- Technical Experience -->
+        <section id="three">
+            <h2>Renewable Energy Monitoring & Technical Support</h2>
+
+            <p>
+                Alongside my GIS and project development background, I have gained practical experience
+                supporting renewable energy monitoring and control systems. My work involves diagnosing
+                field issues, coordinating with technicians and vendors, reviewing system behaviour,
+                and helping ensure that RES installations remain connected, monitored, and controllable.
+            </p>
+
+            <ul class="experience-list">
+                <li>Support for PV park monitoring and control systems.</li>
+                <li>Troubleshooting of connectivity, VPN, router, inverter, logger, and data communication issues.</li>
+                <li>Basic Modbus TCP/RTU checks, signal interpretation, and device integration support.</li>
+                <li>Coordination with clients, field technicians, vendors, and internal technical teams.</li>
+                <li>Preparation of technical notes, troubleshooting summaries, and installation guidance.</li>
+            </ul>
+        </section>
+
+        <!-- Contact -->
+        <section id="four">
+            <h2>Get in Touch</h2>
+
+            <p>
+                I am open to opportunities and collaborations related to GIS, renewable energy,
+                environmental analysis, technical support, and sustainable infrastructure.
+            </p>
+
+            <ul class="actions">
+                <li><a href="mailto:efstratiosmichailidis@gmail.com" class="button primary">Email Me</a></li>
+                <li><a href="https://linkedin.com/in/efstratios-michailidis" class="button" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+                <li><a href="https://github.com/StratsMicha" class="button" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+            </ul>
+        </section>
+
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <h3>Get in touch</h3>
+
+        <div class="inner">
+            <ul class="icons">
+                <li>
+                    <a href="https://twitter.com/StratosMicha" class="icon brands fa-twitter" target="_blank" rel="noopener noreferrer">
+                        <span class="label">Twitter</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/StratsMicha" class="icon brands fa-github" target="_blank" rel="noopener noreferrer">
+                        <span class="label">GitHub</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://linkedin.com/in/efstratios-michailidis" class="icon brands fa-linkedin" target="_blank" rel="noopener noreferrer">
+                        <span class="label">LinkedIn</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="mailto:efstratiosmichailidis@gmail.com" class="icon solid fa-envelope">
+                        <span class="label">Email</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- Scripts from the original HTML5 UP template -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.poptrox.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+    <!-- Custom slideshow script -->
+    <script>
+        const slideshows = document.getElementsByClassName("slideshow");
+
+        for (let i = 0; i < slideshows.length; i++) {
+            slideshows[i].setAttribute("data-current-slide", 1);
+            showDivs(1, i);
+        }
+
+        function plusDivs(n, slideshowIndex) {
+            const slideshow = slideshows[slideshowIndex];
+            const currentSlide = parseInt(slideshow.getAttribute("data-current-slide"), 10);
+            showDivs(currentSlide + n, slideshowIndex);
+        }
+
+        function currentDiv(n, slideshowIndex) {
+            showDivs(n, slideshowIndex);
+        }
+
+        function showDivs(n, slideshowIndex) {
+            const slideshow = slideshows[slideshowIndex];
+            const slides = slideshow.getElementsByClassName("mySlides");
+            const projectBlock = slideshow.closest(".project-block");
+            const dots = projectBlock ? projectBlock.getElementsByClassName("dot") : [];
+
+            if (!slides.length) {
+                return;
+            }
+
+            let slideNumber = n;
+
+            if (slideNumber > slides.length) {
+                slideNumber = 1;
+            }
+
+            if (slideNumber < 1) {
+                slideNumber = slides.length;
+            }
+
+            slideshow.setAttribute("data-current-slide", slideNumber);
+
+            for (let i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+
+            for (let i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active-dot", "");
+            }
+
+            slides[slideNumber - 1].style.display = "block";
+
+            if (dots.length) {
+                dots[slideNumber - 1].className += " active-dot";
+            }
+        }
+    </script>
+
+</body>
 </html>
